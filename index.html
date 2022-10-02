@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="./images/icon--1.png">
-  <title>grovemade</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="./images/icon--1.png">
+  <title>Grovemade</title>
 </head>
 
 <body>
-  <header class="header">
+  <header id="header__go--up" class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -47,282 +47,50 @@
       </div>
     </nav>
   </header>
- <main>
-  <section data-aos="fade-down"
-  data-aos-easing="linear"
-  data-aos-duration="1100"   class="first__section">
-    <div class="container">
-      <div class="row">
-        <div class="the__desk--box d-flex flex-column  align-items-center">
-          <h1>The Desk Shelf System</h1>
-          <p class="my-3">Available in Walnut or Maple</p>
-          <button class="my-3">LEARN MORE</button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="disign__section py-5">
-    <div class="container">
-      <div class="row">
-        <div class="disign__inspirees--box">
-          <div class="disign__box--text d-flex flex-column py-5 ">
-            <h1>Design Inspires</h1>
-            <p class="build__p my-3">Build your dream workspace, so you can get your best work done.</p>
-            <button>GET STARTED</button>
-          </div>
-          <div data-aos="zoom-in" class="disign__img--card d-flex gap-3">
-            <div class="card border-0 d-flex flex-column gap-4">
-              <img src="./images/section--card-comp1.png" class="card-img-top" alt="...">
-              <div class="desk__card">
-                <h5 class="card-title text-center">Desk Pads</h5>
-                <button class="btn d-flex mx-auto">LEARN MORE</button>
-              </div>
-            </div>
-            <div class="card border-0 d-flex flex-column gap-4">
-              <img src="./images/section--card-conps.png" clacontent-centerss="card-img-top" alt="...">
-              <div class="desk__card">
-                <h5 class="card-title text-center">Laptop Stands</h5>
-                <button class="btn d-flex mx-auto">LEARN MORE</button>
-              </div>
+  <main>
+    <section class="first-section d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class=" section__one--box col-lg-8 d-flex gap-2 flex-column justify-content-center align-items-center">
+              <h1 class="first__section-h1 fs-2 fst-normal text-white lh-1">The Desk Shelf System</h1>
+              <p class="first__section-p fs-6 text-white">Available in Walnut or Maple</p>
+              <button class="first__section-button fs-5 fw-3 border-0 fst-normal fw-3 fs-4">LEARN MORE</button>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section  data-aos="zoom-out-right" class="featured__section py-5">
-    <div class="container">
-      <div class="row">
-        <div class="featured__box">
-          <div class="featured__text">
-            <h2 class="text-center">Featured Products</h2>
-            <p class="text-center">See What’s Trending Right Now</p>
+    </section>
+    <section class="disign__section">
+      <div class="container">
+        <div class="row">
+          <div class=" disign__section--box col-lg-8 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="h1__disig text-center">Design Inspires</h1>
+        <p class="p__disig text-center">Build your dream workspace, so you can get your best work done.</p>
+        <button class="button__disig border-0">GET STARTED</button>
           </div>
-
-
-
-
-
-
-          <div class="featured__card d-flex gap-4">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active d-flex gap-3">
-                
-                  <div class="card border-0" style="width: 18rem;">
-                    <img src="images/feature--1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p>Walnut MagSafe Stand</p>
-                      <p class="card-text">$120</p>
-                    </div>
-                  </div>
-
-                  <div class="card border-0" style="width: 18rem;">
-                    <img src="./images/feature--2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-title">Walnut Laptop Riser</p>
-                      <p class="card-text">$150</p>
-                    </div>
-                  </div>
-
-                  <div class="card border-0" style="width: 18rem;">
-                    <img src="./images/feature--3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-title">Walnut iPad Stand</p>
-                      <p class="card-text">$80</p>
-                    </div>
-                  </div>
-
-                  <div class="card border-0" style="width: 18rem;">
-                    <img src="./images/feature--4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-title">Walnut Monitor Stand</p>
-                      <p class="card-text">$100</p>
-                    </div>
-                  </div>
-                </div>
-                
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section data-aos="flip-up"  class="home__offise--section">
-    <div class="container">
-      <div class="row">
-        <div class="home__offise--box d-flex flex-column justify-content-center align-items-center">
-          <h1>Home Office Inspiration</h1>
-          <p>Working from home can be a challenge—see some creative solutions to get it just right.</p>
+        <div class="row">
+          <div class="col-lg-6">
+          <img src="./images/section--card-comp1.png" alt="">
+          <h3>Desk Pads</h3>
           <button>LEARN MORE</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section data-aos="fade-zoom-in"
-  data-aos-easing="ease-in-back"
-  data-aos-delay="300"
-  data-aos-offset="0" class="home__section py-5">
-    <div class="container">
-      <div class="row">
-        <div class="home__box d-flex flex-column gap-3 ">
-          <div class="home__box--text d-flex align-items-center flex-column">
-            <h2>Made The Hard Way</h2>
-            <p >Our signature craftsmanship has been honed over a decade of manufacturing innovation here in Portland, Oregon. We combine the skills of our small in-house team with the collective strength of collaborators throughout the US to deliver quality products worth investing in.</p>
           </div>
-          <div class="home__box--img  d-flex flex-column gap-3">
-            <img src="./images/home__1.png" alt="">
+          <div class="col-lg-6">
+        <img src="./images/section--card-conps.png" alt="">
+        <h3>Laptop Stands</h3>
+        <button>LEARN MORE</button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="make__section py-5">
-    <div class="container">
-      <div class="row">
-        <div class="make__box d-flex flex-column gap-4">
-          <div class="make__box-text d-flex flex-column align-items-center">
-            <h2 class="text-center">Make Work Meaningful</h2>
-            <p class=" text-center">We're here because we believe that your work deserves the best. A team that loves working together is the magic that makes it all happen.</p>
-          </div>
-  
-  
-         <div class="people__box-our d-flex flex-column gap-3">
-          <div class="people__img-box d-flex gap-3">
-            <img src="./images/peaple--1.png" alt="">
-            <img src="./images/peaple__2.png" alt="">
-            <img src="./images/peaple--3.png" alt="">
-            <img src="./images/peaple--5.png" alt="">
-            <img src="./images/peaple--6.png" alt="">
-            <img src="./images/peaple--7.png" alt="">
-          </div>
-  
-  
-          <div class="people__img-box d-flex gap-3">
-            <img src="./images/peaple--8.png" alt="">
-            <img src="./images/peaple--9.png" alt="">
-            <img src="./images/peaple--10.png" alt="">
-            <img src="./images/peaple--11.png" alt="">
-            <img src="./images/peaple--12.png" alt="">
-            <img src="./images/peaple--13.png" alt="">
-          </div>
-  
-  
-          <div class="people__img-box d-flex gap-3">
-            <img src="./images/peaple--14.png" alt="">
-            <img src="./images/peaple--15.png" alt="">
-            <img src="./images/peaple__4.png" alt="">
-            <img src="./images/peaple--17.png" alt="">
-            <img src="./images/peaple--18.png" alt="">
-            <img src="./images/peaple--19.png" alt="">
-          </div>
-  
-  
-          <div class="people__img-box d-flex gap-3">
-            <img src="./images/peaple--20.png" alt="">
-            <img src="./images/peaple__0.png" alt="">
-            <img src="./images/peaple--21.png" alt="">
-            <img src="./images/peaple--22.png" alt="">
-            <img src="./images/peaple--23.png" alt="">
-            <img src="./images/peaple--24.png" alt="">
-          </div>
-         </div>
-  
-  
-        </div>
-        </div>
-    </div>
-  </section>
-  <section class="hope__section ">
-    <div class="container">
-      <div class="row">
-        <div class="hope__box d-flex flex-column gap-4">
-          <h2>We Hope You'll Join Us</h2>
-          <p>READ MORE ABOUT OUR STORY</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="disign__2--section">
-    <div class="container">
-      <div class="row">
-        <div class="disign__2--box d-flex flex-column gap-3 align-items-center ">
-          <img src="./images/icon--1.png" alt="">
-          <h1 class="text-center">Design Inspires</h1>
-          <p class="text-center">Build your dream workspace, so you can get your best work done.</p>
-        </div>
-      </div>
-    </div>
-  </section>
- </main>
- <footer class="footer">
-  <div class="container">
-    <div class="row">
-       <div class="footer__box d-flex justify-content-between">
-        <div class="footer__left--box d-flex align-items-center gap-5">
-          <div class="footer__list--box">
-          <ul class="footer__right--ul d-flex flex-column gap-1 justify-content-center">
-            <li class="footer__list"><a href="#" class="footer__list--item">market</a></li>
-            <li class="footer__list"><a href="#" class="footer__list--item">About</a></li>
-            <li class="footer__list"><a href="#" class="footer__list--item">Journal</a></li>
-            <li class="footer__list"><a href="#" class="footer__list--item">Support</a></li>
-            <li class="footer__list"><a href="#" class="footer__list--item">COVID-19 Info</a></li>
-            <li class="footer__list"><a href="#" class="footer__list--item">Order Status</a></li>
-            <li class="footer__list"><a href="#" class="footer__list--item">Corporate Sales</a></li>
-          </ul>
-          </div>
-  
-  
-          <div class="footer__text--box d-flex flex-column  gap-3 align-items-start">
-            <h3>Newsletter Signup</h3>
-            <p>Sign up to our Newsletter to hear about new product releases, learn about our design process, and everything else going on behind the scenes at Grovemade.</p>
-          
-            <form class="footer__form">
-              <input class="text" type="text">
-            </form>
-          </div>
-  
-        </div>
-        <div class="footer__right--box d-flex flex-column align-items-end justify-content-between">
-          <div class="footer__right--top">
-        <button class="footer__button border-0">GO UP</button>
-          </div>
-          <div class="footer__right--bottom">
-            <ul class="footer__ul d-flex gap-3 d-flex ">
-              <li class="footer__right__list"><a href="#" class="footer__right__list--item">©2020 Grovemade</a></li>
-              <li class="footer__right__list"><a href="#" class="footer__right__list--item">Terms & Conditions</a></li>
-              <li class="footer__right__list"><a href="#" class="footer__right__list--item">Privacy Policy</a></li>
-              <li class="footer__right__list"><a href="#" class="footer__right__p--item">Site by Department</a></li>
-            </ul>
-          </div>
-        </div>
-       </div>
-    </div>
-  </div>
- </footer>
-
+    </section>
+  </main>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
