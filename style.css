@@ -15,7 +15,7 @@
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -61,7 +61,6 @@
 
 .swiper-wrapper {
     bottom: -10%;
-    top: -10%;
 }
 
 .swiper-pagination {
@@ -223,6 +222,7 @@
     padding: 30px;
     width: 82px !important;
     z-index: 5;
+    scroll-behavior: smooth;
 }
 
 .footer__btn:hover {
@@ -260,10 +260,11 @@
     }
 }
 
-@media (max-width:471px) {
-    .teleohone__img {
-    width: 452px;
+@media (max-width:768px) {
+    .first-section, .office__section  {
+        height: 50vh;
     }
+    
 }
 
 
